@@ -1,0 +1,4 @@
+*** Changelog ***
+
+= 1.0.0 - 2022.07.14 =
+* New release: Payment plugin built with seamless payment experience, enhanced features with better usability to maintain the membership either as onetime or recurring
