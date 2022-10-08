@@ -65,7 +65,7 @@ Follow these steps to install the MemberPress payment plugin by Novalnet:
 4. Enable & activate the preferred payment types in your shop admin panel
 
 ## License
-See our License Agreement at: https://www.novalnet.com/payment-plugins/free/license
+See our License Agreement at: https://www.novalnet.com/payment-plugins-free-license/
 
 ## Support 
 For more information about the WooCommerce payment plugin by Novalnet, please get in touch with us: <a href="mailto:sales@novalnet.de"> sales@novalnet.de </a> or +49 89 9230683-20<br>
