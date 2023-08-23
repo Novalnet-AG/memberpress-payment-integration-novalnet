@@ -1,0 +1,689 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Novalnet payment plugin - Memberpress - 1.0.1\n"
+"POT-Creation-Date: 2023-08-10 19:20+0530\n"
+"PO-Revision-Date: 2017-05-26 18:35+0530\n"
+"Last-Translator: Novalnet AG <sales@novalnet.de>\n"
+"Language-Team: Novalnet <sales@novalnet.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_;gettext;gettext_noop;_;gettext;gettext_noop;_;gettext;gettext_noop;__;_e;"
+"__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_e;__ex;esc_html_e;esc_html__;esc_attr__;esc_attr_x\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: app/emails/MeprNovalnetPaymentReceiptEmail.php:30
+msgid "<b>Novalnet Payment Receipt</b> Notice"
+msgstr ""
+
+#: app/emails/MeprNovalnetPaymentReceiptEmail.php:31
+msgid ""
+"This email is sent to the user to get the bank and store details to pay for their membership purchase. This email is "
+"applicable for Novalnet Invoice, Instalment by Invoice, Prepayment, Barzahlen/viacash and Multibanco."
+msgstr ""
+
+#: app/emails/MeprNovalnetPaymentReceiptEmail.php:37
+msgid "Novalnet Payment"
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:53
+msgid "Payment Notice "
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:70
+#, php-format
+msgid "Order No: %s"
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:140
+#, php-format
+msgid "Dear %s,"
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:161
+#, php-format
+msgid "Thank you for placing your order at <a href=\"%1$s\">%2$s</a>. Please refer your transaction details below:"
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:215
+msgid "Order Summary"
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:220
+msgid "TID :"
+msgstr ""
+
+#: app/views/emails/novalnet_payment_receipt.php:242
+msgid "Transaction Note"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:80 includes/MeprNovalnetGateway.php:254
+msgid "You will be redirected. Please don`t close or refresh the browser until the payment is completed"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:130
+msgid "Novalnet Transaction Note :"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:144
+msgid "Novalnet Instalment Cycles :"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:149 includes/MeprNovalnetGateway.php:154
+msgid "Paid"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:149
+msgid "Pending"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:152 includes/MeprNovalnetGateway.php:159
+msgid "Refunded"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:152 includes/MeprNovalnetGateway.php:154
+msgid "Cancelled"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:166
+msgid "Cycle"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:167
+msgid "Date"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:168
+msgid "Amount"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:172
+msgid "Status"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:181
+msgid "Novalnet Transaction History :"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:330
+msgid "Novalnet API Configuration"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:334
+msgid "Product activation key "
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:338
+msgid "Product activation key"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:339
+msgid ""
+"Your product activation key is a unique token for merchant authentication and payment processing. Get your Product "
+"activation key from the <a href=\"https://admin.novalnet.de/\">Novalnet Admin Portal</a> : PROJECT > Choose your project "
+"> Shop Parameters > API Signature (Product activation key)"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:354 includes/MeprNovalnetGateway.php:358
+msgid "Payment access key"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:359
+msgid "Your secret key used to encrypt the data to avoid user manipulation and fraud."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:379 includes/MeprNovalnetGateway.php:383
+msgid "Enable test mode"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:384
+msgid "The payment will be processed in the test mode therefore amount for this transaction will not be charged."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:390
+msgid "Project ID"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:402 includes/MeprNovalnetGateway.php:406
+msgid "Select Tariff ID"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:407
+msgid "Select a Tariff ID to match the preferred tariff plan you created at the Novalnet Admin Portal for this project"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:426 includes/MeprNovalnetGateway.php:430
+msgid "Select Subscription Tariff ID"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:431
+msgid ""
+"Select the preferred Novalnet subscription tariff ID available for your project. For more information, please refer the "
+"Installation Guide"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:450
+msgid "Payment action:"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:454
+msgid "Payment action"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:455
+msgid ""
+"Choose whether or not the payment should be charged immediately. Capture completes the transaction by transferring the "
+"funds from buyer account to merchant account. Authorize verifies payment details and reserves funds to capture it later, "
+"giving time for the merchant to decide on the order."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:463
+msgid "Capture"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:464
+msgid "Authorize"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:472
+msgid "Notification / Webhook URL Setup"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:476 includes/MeprNovalnetGateway.php:480
+msgid "Notification / Webhook URL"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:481
+msgid ""
+"You must configure the webhook endpoint in your <a href=\"https://admin.novalnet.de\" target=\"_blank\">Novalnet Admin "
+"portal</a>. This will allow you to receive notifications about the transaction"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:487
+msgid "Configure"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:496
+msgid "Allow manual testing of the Notification / Webhook URL"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:501 includes/MeprNovalnetGateway.php:505
+msgid "Sent e-mail to"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:506
+msgid "Notification / Webhook URL execution messages will be sent to this e-mail"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:521 includes/class-novalnet-helper.php:711
+msgid "Credit/Debit Cards"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:529 includes/MeprNovalnetGateway.php:533
+msgid "Enforce 3D Secure payments outside the EU"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:534
+msgid "By enabling this option, all payments from cards issued outside the EU will be authenticated via 3DS 2.0 SCA."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:540 includes/class-novalnet-helper.php:721 includes/class-novalnet-helper.php:735
+msgid "Direct Debit SEPA"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:543 includes/MeprNovalnetGateway.php:565
+msgid "Payment due date (in days)"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:547 includes/MeprNovalnetGateway.php:569
+msgid "Payment due date"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:548
+msgid "Number of days after which the payment is debited (must be between 2 and 14 days)."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:562
+msgid "Invoice/ Prepayment"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:570
+msgid ""
+"Number of days given to the buyer to transfer the amount to Novalnet (must be greater than 7 days). If this field is "
+"left blank, 14 days will be set as due date by default"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:584 includes/class-novalnet-helper.php:718
+msgid "Barzahlen/viacash"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:587
+msgid "Slip expiry date (in days)"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:591
+msgid "Slip expiry date"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:592
+msgid ""
+"Number of days given to the buyer to pay at a store. If this field is left blank, 14 days will be set as slip expiry "
+"date by default."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:607
+msgid "Instalment by Invoice/ Instalment by Direct Debit SEPA"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:611
+msgid "Instalment cycles (separated by comma)"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:615
+msgid "Instalment cycles"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:616
+msgid "Select the instalment cycles that can be availed in the instalment plan"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:630
+msgid "Payment Description"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:656
+msgid "Please fill in all the mandatory fields"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:676 includes/MeprNovalnetGateway.php:1516
+msgid "Payment url not found."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:725
+msgid "You will be redirected to the payment page to complete the payment"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:745
+msgid "Pay Now"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:845 includes/class-novalnet-helper.php:507
+#, php-format
+msgid "Novalnet transaction ID: %s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:873
+msgid "While redirecting some data has been changed. The hash check failed"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:913
+msgid "Transaction ID not found"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:917
+msgid "Some data was missing"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1140
+#, php-format
+msgid "Payment refund failed for the order: %1$s due to: %2$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1144
+#, php-format
+msgid "Payment refund failed for the order: %1$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1155
+#, php-format
+msgid "Refund has been initiated for the TID: %1$s with the amount %2$s."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1158
+#, php-format
+msgid "New TID: %s for the refunded amount"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1243
+#, php-format
+msgid "Subscription has been cancelled on %1$s %2$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1307
+#, php-format
+msgid "This subscription transaction has been suspended on %s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1371
+#, php-format
+msgid "Subscription has been reactivated for the TID:%1$s on %2$s. Next charging date :%3$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1404
+msgid "Your payment was cancelled"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1408 includes/MeprNovalnetGateway.php:1422
+#, php-format
+msgid "You can retry your purchase by <a href=\"%s\">clicking here</a>."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1418
+msgid "Your payment was failed"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1475
+#, php-format
+msgid "Subscription updated successfully. You will be charged %1$s on %2$s."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1479
+#, php-format
+msgid "Successfully changed the payment method for next subscription on %s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1600 includes/MeprNovalnetGateway.php:1853
+#, php-format
+msgid "The transaction has been canceled on %1$s %2$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1616
+#, php-format
+msgid "The transaction has been confirmed on %1$s %2$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1658
+#, php-format
+msgid ""
+"Credit has been successfully received for the TID: %1$s with amount %2$s on %3$s %4$s. Please refer PAID order details "
+"in our Novalnet Admin Portal for the TID: %5$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1664
+#, php-format
+msgid "Chargeback executed successfully for the TID: %1$s amount: %2$s on %3$s. The subsequent TID: %4$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1674
+#, php-format
+msgid ""
+"A new instalment has been received for the Transaction ID:%1$s with amount %2$s. The new instalment transaction ID is: "
+"%3$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1721
+#, php-format
+msgid "Instalment has been cancelled for the TID %1$s on %2$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1869
+#, php-format
+msgid "Transaction updated successfully for the TID: %1$s with the amount %2$s on %3$s %4$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1873
+#, php-format
+msgid "Transaction updated successfully for the TID: %1$s with due date %2$s."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1876
+#, php-format
+msgid "Transaction updated successfully for the TID: %1$s with amount %2$s and due date %3$s."
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1880
+#, php-format
+msgid "The transaction status has been changed from pending to completed for the TID: %1$s on %2$s %3$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1883
+#, php-format
+msgid "The transaction status has been changed from pending to on-hold for the TID: %1$s on %2$s %3$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1902
+#, php-format
+msgid "Callback script executed already. Refer TID: %1$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1949
+#, php-format
+msgid "Subscription has been successfully renewed for the TID: %1$s with the amount %2$s on %3$s. The renewal TID is:%4$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1963
+#, php-format
+msgid "Subscription has been cancelled since the subscription has exceeded the maximum time period for the TID: %s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1966
+#, php-format
+msgid " Next charging date will be on %1$s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:1978
+#, php-format
+msgid "Subscription not found for the transaction: %s"
+msgstr ""
+
+#: includes/MeprNovalnetGateway.php:2030
+msgid "Sorry, we couldn't complete the transaction. Try back later."
+msgstr ""
+
+#: includes/class-novalnet-helper.php:331
+msgid "Please enter the required fields under Novalnet API Configuration"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:405
+msgid "Payment was not successful. An error occurred"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:459
+msgid ""
+"Your order is under verification and we will soon update you with the order status. Please note that this may take upto "
+"24 hours."
+msgstr ""
+
+#: includes/class-novalnet-helper.php:470
+#, php-format
+msgid ""
+"Please use the following payment reference details to pay the amount of %s at a Multibanco ATM or through your internet "
+"banking."
+msgstr ""
+
+#: includes/class-novalnet-helper.php:473
+#, php-format
+msgid "Payment Reference : %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:502
+#, php-format
+msgid "Your order was successfully processed using %1$s %2$s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:510
+msgid "Test order"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:534
+#, php-format
+msgid "Please transfer the amount of %1$s to the following account on or before %2$s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:537
+#, php-format
+msgid "Please transfer the instalment cycle amount of %1$s to the following account on or before %2$s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:541
+#, php-format
+msgid "Please transfer the amount of %1$s to the following account"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:545
+#, php-format
+msgid "Please transfer the instalment cycle amount of %1$s to the following account."
+msgstr ""
+
+#: includes/class-novalnet-helper.php:551
+#, php-format
+msgid "Account holder: %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:554
+#, php-format
+msgid "Bank: %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:557
+#, php-format
+msgid "Place: %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:560
+#, php-format
+msgid "IBAN: %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:563
+#, php-format
+msgid "BIC: %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:572
+msgid ""
+"Please use any of the following payment references when transferring the amount. This is necessary to match it with your "
+"corresponding order"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:574
+#, php-format
+msgid "Payment Reference 1: TID %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:578
+#, php-format
+msgid "Payment Reference 2: %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:596
+#, php-format
+msgid "Slip expiry date : %s"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:598
+msgid "Store(s) near to you: "
+msgstr ""
+
+#: includes/class-novalnet-helper.php:712
+msgid "Sofort online bank transfer"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:713
+msgid "PayPal"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:714
+msgid "iDEAL"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:715
+msgid "Giropay"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:716
+msgid "eps"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:717
+msgid "Przelewy24"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:719 includes/class-novalnet-helper.php:720
+msgid "Invoice"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:722
+msgid "Prepayment"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:723
+msgid "Bancontact"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:724
+msgid "Multibanco"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:725
+msgid "PostFinance Card"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:726
+msgid "PostFinance E-Finance"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:727
+msgid "Apple Pay"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:728
+msgid "Google Pay"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:729
+msgid "Alipay"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:730
+msgid "WeChat Pay"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:731
+msgid "Trustly"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:732
+msgid "Cash on pickup"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:733
+msgid "Online bank transfer"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:734
+msgid "Instalment by Invoice"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:736
+msgid "Instalment by Direct Debit SEPA"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:737
+msgid "Instalment by Invoice Rate"
+msgstr ""
+
+#: includes/class-novalnet-helper.php:738
+msgid "Instalment by Direct Debit SEPA Rate"
+msgstr ""
+
+#: memberpress-novalnet-addon.php:53
+msgid "Novalnet payment addon requires memberpress to be installed and activated"
+msgstr ""
+
+#: memberpress-novalnet-addon.php:59
+msgid "Novalnet payment addon - Memberpress"
+msgstr ""
+
+#: memberpress-novalnet-addon.php:60
+msgid ""
+"Novalnet integration for Memberpress, provides the most convenient way to increase your sales and deliver secured and "
+"trusted means of checkout experience by accepting all payment methods worldwide for your customers"
+msgstr ""

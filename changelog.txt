@@ -1,0 +1,7 @@
+*** Changelog ***
+
+= 1.0.1 - 2023.08.23
+*Fix - Compatible for MemberPress version 1.11.15
+
+= 1.0.0 - 2022.07.14 =
+* New release: Payment plugin built with seamless payment experience, enhanced features with better usability to maintain the membership either as onetime or recurring
