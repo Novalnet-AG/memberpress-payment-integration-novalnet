@@ -32,6 +32,7 @@ Novalnet payment addon for MemberPress simplifies your daily work by automating 
 - Direct Debit SEPA
 - Credit/Debit Cards
 - Apple Pay
+- Google Pay
 - Invoice
 - Prepayment
 - Invoice with payment guarantee
