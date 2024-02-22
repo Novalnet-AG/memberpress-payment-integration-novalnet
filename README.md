@@ -2,7 +2,7 @@
 Novalnet payment addon for MemberPress simplifies your daily work by automating the entire payment process, from checkout till collection. This addon is designed to help you increase your sales by offering various payment methods on a one-page checkout. The payment addon is perfectly adjusted to the MemberPress shop with top-quality range of services of the payment provider.
 
 ## MemberPress Addon Integration Requirements
-<a href="https://www.novalnet.de/">Novalnet</a> merchant account is required for processing all international and local payments through this MemberPress payment Addon. The plugin is available for Wordpress versions 5.0 to 6.3, MemberPress versions 1.9.37 - 1.11.15 in the following languages: EN & DE
+<a href="https://www.novalnet.de/">Novalnet</a> merchant account is required for processing all international and local payments through this MemberPress payment Addon. The plugin is available for Wordpress versions 5.0 to 6.4.3, MemberPress versions 1.9.37 - 1.11.24 in the following languages: EN & DE
 
 ## Key Features
 
